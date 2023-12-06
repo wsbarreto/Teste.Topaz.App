@@ -1,6 +1,6 @@
 ﻿namespace Teste.Topaz.App.Entity;
 
-sealed class CompactDiscEntity : IBaseEntity
+public class CompactDiscEntity : IBaseEntity
 {
     public Guid ID { get; }
     public string Titulo { get; }

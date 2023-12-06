@@ -1,6 +1,7 @@
 ﻿using System.Data;
 using System.Data.Common;
 using Teste.Topaz.App.Data.Context;
+using Teste.Topaz.App.Domain.Interface.Repository;
 
 namespace Teste.Topaz.App.Data.Repository;
 

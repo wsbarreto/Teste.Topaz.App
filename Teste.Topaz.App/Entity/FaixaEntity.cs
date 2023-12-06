@@ -1,6 +1,6 @@
 ﻿namespace Teste.Topaz.App.Entity;
 
-sealed class FaixaEntity : IBaseEntity
+public class FaixaEntity : IBaseEntity
 {
     public Guid ID { get; }
     public DateTime DataCadastro { get; }

@@ -1,6 +1,6 @@
 ﻿namespace Teste.Topaz.App.Entity;
 
-sealed class ArtistaEntity : IBaseEntity
+public class ArtistaEntity : IBaseEntity
 {
     public Guid ID { get; }
     public DateTime DataCadastro { get; }

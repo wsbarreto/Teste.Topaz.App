@@ -1,6 +1,4 @@
-﻿using Teste.Topaz.App.Entity;
-
-namespace Teste.Topaz.App.Data.Repository;
+﻿namespace Teste.Topaz.App.Domain.Interface.Repository;
 
 public interface IBaseRepository<TEntity> where TEntity : class
 {
