@@ -1,4 +1,4 @@
-﻿namespace Teste.Topaz.App.Entity;
+﻿namespace Teste.Topaz.App.Domain.Entity;
 
 public class GeneroEntity : IBaseEntity
 {
@@ -9,7 +9,7 @@ public class GeneroEntity : IBaseEntity
     public GeneroEntity(Guid id, DateTime dataCadastro, string nome)
     {
         ID = id;
-        this.DataCadastro = dataCadastro;
-        this.Nome = nome;
+        DataCadastro = dataCadastro;
+        Nome = nome;
     }
 }

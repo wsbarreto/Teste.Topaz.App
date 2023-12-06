@@ -1,4 +1,4 @@
-﻿using Teste.Topaz.App.Entity;
+﻿using Teste.Topaz.App.Domain.Entity;
 
 namespace Teste.Topaz.App.Domain.Interface.Service;
 

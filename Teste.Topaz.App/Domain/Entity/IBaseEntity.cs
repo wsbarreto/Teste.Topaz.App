@@ -1,4 +1,4 @@
-﻿namespace Teste.Topaz.App.Entity;
+﻿namespace Teste.Topaz.App.Domain.Entity;
 
 public interface IBaseEntity
 {

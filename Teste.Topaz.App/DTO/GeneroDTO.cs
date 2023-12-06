@@ -1,6 +1,6 @@
 ﻿namespace Teste.Topaz.App.DTO;
 
-sealed class GeneroDTO : IBaseDTO
+public class GeneroDTO : IBaseDTO
 {
     public Guid ID { get; set; }
     public DateTime DataCadastro { get; set; }

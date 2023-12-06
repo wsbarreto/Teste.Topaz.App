@@ -1,0 +1,40 @@
+﻿@page
+@model Teste.Topaz.App.Pages.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>CompactDiscDTO</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CompactDiscDTO.Titulo" class="control-label"></label>
+                <input asp-for="CompactDiscDTO.Titulo" class="form-control" />
+                <span asp-validation-for="CompactDiscDTO.Titulo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompactDiscDTO.DataCadastro" class="control-label"></label>
+                <input asp-for="CompactDiscDTO.DataCadastro" class="form-control" />
+                <span asp-validation-for="CompactDiscDTO.DataCadastro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

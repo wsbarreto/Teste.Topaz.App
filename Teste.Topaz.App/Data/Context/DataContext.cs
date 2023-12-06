@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Data;
 using System.Data.SqlClient;
+using Teste.Topaz.App.DTO;
 
 namespace Teste.Topaz.App.Data.Context;
 
@@ -23,4 +24,6 @@ public class DataContext : DbContext
 
         modelBuilder.HasDefaultSchema("TOPAZ");
     }
+
+    public DbSet<Teste.Topaz.App.DTO.CompactDiscDTO> CompactDiscDTO { get; set; } = default!;
 }

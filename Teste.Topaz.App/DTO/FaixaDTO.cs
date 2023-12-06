@@ -1,6 +1,6 @@
 ﻿namespace Teste.Topaz.App.DTO;
 
-sealed class FaixaDTO : IBaseDTO
+public class FaixaDTO : IBaseDTO
 {
     public Guid ID { get; set; }
     public DateTime DataCadastro { get; set; }

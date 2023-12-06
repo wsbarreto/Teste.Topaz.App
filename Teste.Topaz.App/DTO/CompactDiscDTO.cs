@@ -1,6 +1,6 @@
 ﻿namespace Teste.Topaz.App.DTO;
 
-sealed class CompactDiscDTO : IBaseDTO
+public class CompactDiscDTO : IBaseDTO
 {
     public Guid ID { get; set; }
     public string Titulo { get; set; }

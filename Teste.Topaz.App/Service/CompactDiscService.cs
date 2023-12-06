@@ -1,6 +1,6 @@
-﻿using Teste.Topaz.App.Domain.Interface.Repository;
+﻿using Teste.Topaz.App.Domain.Entity;
+using Teste.Topaz.App.Domain.Interface.Repository;
 using Teste.Topaz.App.Domain.Interface.Service;
-using Teste.Topaz.App.Entity;
 
 namespace Teste.Topaz.App.Service;
 
